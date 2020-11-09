@@ -17,3 +17,9 @@ variable "aws_region" {
   default     = "us-east-1"
   description = "AWS region"
 }
+
+variable "environment_name" {
+  type = string
+  default     = "test"
+  description = "Environment name"
+}
